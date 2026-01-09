@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application form</title>
+    <style>
+.last {
+  margin-top: -20px;
+  left: 60px;
+  align-items: center;
+}
+.first{
+  margin-top: -150px;
+  text-indent: 20px;
+  padding-top: 0px;
+
+ 
+
+}
+.mail{
+ font-size: smaller;
+  left: 60px;
+  align-items: center;
+  margin-top: 0px;
+
+}
+.father{
+ font-size: smaller;
+  left: 60px;
+  align-items: center;
+  margin-top: 100px;
+
+}
+.age{
+  margin-top: -320px;
+}
+.district {
+
+ font-size: smaller;
+  left: 60px;
+  align-items: center;
+  margin-top: -10px;
+
+}
+
+  
+.home{
+  justify-content:center;
+  
+  color: blue ;
+  padding: 20px;
+  gap: 5px;
+  display: flex;
+}
+.home :hover{
+  color: red;
+}
+.cen add{
+  font-size: smaller;
+  left: 60px;
+  align-items: center;
+  margin-top: 100px;
+
+}
+.photos{
+  left: 80px;
+  align-items: center;
+  margin-top: -50px;
+  margin-bottom: 150px;
+  margin-left: 90px;
+ 
+
+
+}
+.main{
+  background-color: pink;
+  height: auto;
+}
+.third{
+      display: flex;
+     
+        
+  width: 100%;               
+  margin-top: 320px;
+  gap: 5px;
+  margin-left: 1050px;
+  
+  
+
+}
+
+  .twocolm{
+    margin-top: -250px;
+  }
+  
+
+}
+    </style>
+   
+</head>
+<body>
+    <form>
+<fieldset >
+  <div class="main">
+  <div class=home><p><CENTER><u>HOME</u></CENTER></p><p><center>REGISTRATION</center></p><P><center><U> LOGIN</U></center></p></div>
+  <H1><B><CENTER>APPLICATION FORM</B></CENTER></H1>
+  <div class="third">
+  <label>DATE AND TIME:</label><BR>
+  <input type="datetime-local">
+   <label>GENDER:</label><BR>
+  <label>MALE:<input type="radio"name="gen"/></label>
+  <label>FEMALE:<input type="radio"name="gen"/></label>
+   <label>WEEK:</label><BR>
+  <input type="week"></div>
+  <div class="twocolm">
+<CENTER><input type="checkbox" Iname="" id=""checked/><label> accept the  terms & condition</CENTER></label>
+<center><button type="reset">reset</button></center>
+<br><label  >Application Number: </label><br><input  type ="text"/>  
+<div class="last"><center>last: <br><label  Last Name:</label><br><input  type ="text"/></center></div>
+  
+ <br><div class="mail"> <center>CONFIRMATION MAIL: <label  Last Name:</label><br><input  type ="text"/></center></div>
+   <br><div class="dob"> <center>DOB: <label  </label><br><input  type ="date"/></center></div>
+
+    <br><div class=first><label  >First Name:</label><br><input  type ="text"   </label></div>
+<div class="father"><center>Father Name:<label  </label><br><input  type ="text"/></center></div>
+<br> <DIV class="district">
+<BR><center><label for="district">DISTRICT:</label></center>
+<center><select>
+  <option>select the district        </option>
+  <option>Madurai        </option>
+  <option>chennai        </option>
+</select></center></DIV> 
+<br> <DIV class="city">
+<BR><center><label for="city">CITY:</label></center>
+<center><select>
+  <option>select the city       </option>
+  <option>Madurai        </option>
+  <option>chennai        </option>
+</select></center></DIV> 
+<br><div class="cen add"><center><label  >ADDRESS: </label>
+<br><input type="text" ></center></div>
+
+
+<div class="age"><br><label  >AGE:</label>
+<br><input  type ="text"  placeholder="enter your age" 
+<br>
+<br><label  >MAIL ID:</label>
+<br><input  type ="text"  
+<br>
+<br><label  >MOBILE NUMBER:</label>
+<br><input  type ="number"   
+<BR>
+<DIV>
+<BR><label for="religion">RELIGION:</label>
+<br><input list="religions" id="religion" name="religion">
+
+<datalist id="religions">
+  <option value="madurai">
+  <option value="chennai">
+  <option value="bangalore">
+</datalist></DIV>
+
+<DIV>
+  <label>State:</label>
+  <br>
+<select>
+  <br><option>select the state        </option>
+  <option>Tamilnadu        </option>
+  <option>karnataka        </option>
+</select>
+
+
+<br>
+<br><label  >PINCODE:</label>
+  <br>  <input  type ="number"   
+    
+<br>
+<br><label  >ADDRESS: </label>
+<br><input type="text" 
+<br>
+<br><br><label>AADHAR</label><input type="file" accept ".jpg,.png"/></div></div>
+<br><br><div class="photos"><center><label>PHOTOS</label><input type="file" accept ".jpg,.png"/></div></center>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+</fieldset>
+
+
+
+
+    </form>
+    
+</body>
+</html>
